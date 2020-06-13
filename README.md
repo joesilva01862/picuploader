@@ -28,8 +28,9 @@ Essentially, here's what you need to use this program:
 
 
 To build the program:
+
 . first, download the source from here
-<br>
+
 . open a terminal window on the folder you downloaded the source into
 <br>
 . issue this command:
