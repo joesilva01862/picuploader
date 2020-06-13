@@ -17,7 +17,7 @@ Once started, picuploader will run continously until it's terminated with CRTL-C
 sleeping at intervals predefined in the config file.
 
 Essentially, here's what you need to use this program:
-
+<br>
 . File server (usually HTTP) configured to receive files (take a look at https://nextcloud.com)
 <br>
 . curl installed in the same machine as the picuploader
@@ -28,15 +28,17 @@ Essentially, here's what you need to use this program:
 
 
 To build the program:
-
+<br>
 . first, download the source from here
-
+<br>
 . open a terminal window on the folder you downloaded the source into
 <br>
 . issue this command:
+<br>
   go build service.go
 <br>
 . to execute the stanadlone app, issue this command
+<br>
   ./service   
 
 
