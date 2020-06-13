@@ -19,17 +19,25 @@ sleeping at intervals predefined in the config file.
 Essentially, here's what you need to use this program:
 
 . File server (usually HTTP) configured to receive files (take a look at https://nextcloud.com)
+<br>
 . curl installed in the same machine as the picuploader
+<br>
 . picservice.conf file in your home folder
+<br>
 . picuploader
+
 
 To build the program:
 . first, download the source from here
+<br>
 . open a terminal window on the folder you downloaded the source into
+<br>
 . issue this command:
   go build service.go
+<br>
 . to execute the stanadlone app, issue this command
   ./service   
+
 
 That's it. Enjoy!
 
