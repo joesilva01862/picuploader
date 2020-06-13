@@ -37,7 +37,7 @@ To build the program:
 <br>
   go build service.go
 <br>
-. to execute the stanadlone app, issue this command
+. to execute the standalone app, issue this command
 <br>
   ./service   
 
